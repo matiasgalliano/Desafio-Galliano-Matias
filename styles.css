@@ -1,0 +1,57 @@
+.bodyPaginaPrincipal{
+    background-color: rgb(255, 115, 0);
+}
+.bodyPerdiste{
+    background-color: red;
+}
+.bodyGanaste{
+    background-color: green;
+}
+.titulos{
+    text-align: center;
+}
+#imgPersonaje{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+.imgOpciones{
+    width: 300px;
+    height: 200px;
+}
+.opciones{
+    display: flex;
+    justify-content: center;
+}
+.elegirOpcion {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 10px;
+}
+.btnOpciones:hover{
+    background-color: rgb(0, 75, 128);
+    color: white;
+    transition: background-color 0.5s;
+}
+.btnOpciones{
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.imgPerdiste{
+    width: 400px;
+    height: 400px;
+}
+.caminos{
+    display: flex;
+    flex-direction: row;
+}
+.btnCaminos{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
